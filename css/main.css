@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0
+}
+#container{
+    width: 270px;
+    height: 450px;
+    border: 1px solid darkblue;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.squre{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px #fff solid;
+    box-sizing: border-box;
+}
+.squreFalled{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px #fff solid;
+    box-sizing: border-box;
+    background: royalblue;
+}
+#squreFalled{
+    position: absolute;
+    width: 270px;
+    height: 450px;
+    top: 0
+}
+#sqCon{
+    position: absolute;
+    width: 270px;
+    height: 450px;
+    top: 0
+}
